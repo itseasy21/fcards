@@ -1,4 +1,8 @@
 <?php /* Template Name: HomePage */ ?>
+<?php
+    get_header();
+    b4st_main_before();
+?>
       <div class="contaner">
          <div class="row">
             <div class="col-sm-4 bg">
@@ -60,4 +64,7 @@
          <div class="slide"><img src="<?php get_template_directory_uri() ?>/theme/img/page-7.png"></div>
          <div class="slide"><img src="<?php get_template_directory_uri() ?>/theme/img/page-8.png"></div>
       </section>
-      
+<?php 
+    b4st_main_after();
+    get_footer();
+?>
