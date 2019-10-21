@@ -11,7 +11,6 @@
 
 <?php b4st_navbar_before();?>
 
-<nav id="navbar" class="navbar navbar-expand-md navbar-light bg-light">
   <div class="contaner1">
      <div class="row">
         <div class="col-sm-4 bg-white">
@@ -71,5 +70,4 @@
 <img src="<?php echo get_template_directory_uri(); ?>/theme/img/banner.png" alt="banner_img" class="img-fluid img_banner"/>
 </div>
 
-</nav>
 <?php b4st_navbar_after();?>
