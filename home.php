@@ -55,16 +55,16 @@
          </div>
       </div>
       <section class="customer-logos slider mt-3">
-         <div class="slide"><img src="<?php get_template_directory_uri() ?>/theme/img/page-1.png"></div>
-         <div class="slide"><img src="<?php get_template_directory_uri() ?>/theme/img/page-2.png"></div>
-         <div class="slide"><img src="<?php get_template_directory_uri() ?>/theme/img/page-3.png"></div>
-         <div class="slide"><img src="<?php get_template_directory_uri() ?>/theme/img/page-4.png"></div>
-         <div class="slide"><img src="<?php get_template_directory_uri() ?>/theme/img/page-5.png"></div>
-         <div class="slide"><img src="<?php get_template_directory_uri() ?>/theme/img/page-6.png"></div>
-         <div class="slide"><img src="<?php get_template_directory_uri() ?>/theme/img/page-7.png"></div>
-         <div class="slide"><img src="<?php get_template_directory_uri() ?>/theme/img/page-8.png"></div>
+         <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/theme/img/page-1.png"></div>
+         <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/theme/img/page-2.png"></div>
+         <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/theme/img/page-3.png"></div>
+         <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/theme/img/page-4.png"></div>
+         <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/theme/img/page-5.png"></div>
+         <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/theme/img/page-6.png"></div>
+         <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/theme/img/page-7.png"></div>
+         <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/theme/img/page-8.png"></div>
       </section>
-<?php 
+<?php
     b4st_main_after();
     get_footer();
 ?>
