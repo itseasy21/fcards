@@ -1,3 +1,5 @@
+	body {overflow-x:hidden; background: #ebebeb;}
+	.text-color {color:#616161;}
 	.img_banner {width: 85em; height: auto;}
 	.contaner {max-width: 1280px;margin: auto;}
 	.heding_color {color:#05973c;}
@@ -5,13 +7,13 @@
 	.bg {background: #b5ebc9; border-radius: 15px;}
 	.bg1 {background: #b5ebc9;}
 	li {color:#616161;}
-	
+
 	.list-group-item {
 		background-color: #b5ebc9;
 		border: 1px solid rgba(0, 0, 255, 0.27);
 	}
-  
-    
+
+
   .slick-slide {
     margin: 0px 20px;
 }
