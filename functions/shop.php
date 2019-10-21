@@ -1,3 +1,4 @@
+<?php /* Template Name: Product */ ?>
 <?php
     get_header();
     b4st_main_before();
