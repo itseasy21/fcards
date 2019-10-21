@@ -1,4 +1,4 @@
-<?php /* Template Name: Product */ ?>
+<?php /* Template Name: FullWidth */ ?>
 <?php
     get_header();
     b4st_main_before();
