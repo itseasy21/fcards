@@ -27,7 +27,7 @@
 ## Bootstrap Integration
 
 * Bootstrap navbar with WordPress menu and search.
-	* Navbar dropdowns (child menus) are handled by a [custom walker nav menu class](https://github.com/SimonPadbury/fcards/blob/master/functions/navbar.php).
+	* Navbar dropdowns (child menus) are handled by a [custom walker nav menu class](https://github.com/itseasy21/fcards/blob/master/functions/navbar.php).
 
 * Bootstrap customized comments and feedback response form.
 
@@ -49,4 +49,4 @@
 
 * Also, the navbar brand, navbar search form and sub-footer “bottomline” are inserted using pluggable hooks. So, a child theme can override these.
 
-* _Documentation on fcards theme hooks can be found in the [wiki](https://github.com/SimonPadbury/fcards/wiki/fcards-Theme-Hooks)._
+* _Documentation on fcards theme hooks can be found in the [wiki](https://github.com/itseasy21/fcards/wiki/fcards-Theme-Hooks)._
