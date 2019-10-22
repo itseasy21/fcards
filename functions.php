@@ -8,6 +8,7 @@ if ( ! defined('ABSPATH') ) {
 }
 require get_template_directory() . '/functions/cleanup.php';
 require get_template_directory() . '/functions/setup.php';
+require get_template_directory() . '/functions/woocommerce.php';
 require get_template_directory() . '/functions/enqueues.php';
 require get_template_directory() . '/functions/hooks.php';
 require get_template_directory() . '/functions/navbar.php';
