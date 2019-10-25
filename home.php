@@ -8,8 +8,8 @@
             <div class="col-sm-4 bg">
                <h3 class="text-center heding_color font-weight-bolder heding_border mt-2 mb-2">Categories</h3>
                <div class="contaner">
-                  <ul class="list-group list-group-flush">
-                    <?php echo do_shortcode("[woocommerce_product_filter_category]"); ?>
+                  <?php get_sidebar(); ?>
+                  <!-- <ul class="list-group list-group-flush">
                      <li class="list-group-item">MATCH ATTAX inc Non UK releases</li>
                      <li class="list-group-item">TOPPS/ MERLIN STICKERS</li>
                      <li class="list-group-item">NON UK CARDS</li>
@@ -21,7 +21,7 @@
                      <li class="list-group-item">CARD SUPPLIES</li>
                      <li class="list-group-item">PANINI CARDS–NON ADRENALYN XL</li>
                      <li class="list-group-item">SELL YOUR CARDS</li>
-                  </ul>
+                  </ul> -->
                </div>
             </div>
             <div class="col-sm-8">
