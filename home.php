@@ -9,6 +9,7 @@
                <h3 class="text-center heding_color font-weight-bolder heding_border mt-2 mb-2">Categories</h3>
                <div class="contaner">
                   <ul class="list-group list-group-flush">
+                    <?php do_shortcode("[woocommerce_product_filter_category]"); ?>
                      <li class="list-group-item">MATCH ATTAX inc Non UK releases</li>
                      <li class="list-group-item">TOPPS/ MERLIN STICKERS</li>
                      <li class="list-group-item">NON UK CARDS</li>
