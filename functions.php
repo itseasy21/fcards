@@ -11,6 +11,7 @@ require get_template_directory() . '/functions/setup.php';
 require get_template_directory() . '/functions/woocommerce.php';
 require get_template_directory() . '/functions/enqueues.php';
 require get_template_directory() . '/functions/hooks.php';
+require get_template_directory() . '/functions/options.php';
 require get_template_directory() . '/functions/navbar.php';
 require get_template_directory() . '/functions/widgets.php';
 require get_template_directory() . '/functions/search-widget.php';
