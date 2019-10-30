@@ -3,17 +3,13 @@
     b4st_main_before();
 ?>
 
-<main id="main" class="container mt-5">
-  <div class="row">
-
-    <div class="col-sm">
-      <div id="content" role="main">
-        <?php get_template_part('loops/page-content'); ?>
-      </div><!-- /#content -->
-    </div>
-
-  </div><!-- /.row -->
-</main><!-- /.container -->
+<div class="contaner">
+   <div class="row">
+     <div class="col-sm-8">
+       <?php get_template_part('loops/page-content'); ?>
+   </div>
+</div>
+</div>
 
 <?php
     b4st_main_after();
