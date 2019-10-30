@@ -27,24 +27,18 @@
       <option>Currencies-4</option>
       </select>
     </div>
-    <div class="col">
-      <div class="input-group mb-3">
-      <input type="text" class="form-control" placeholder="Search">
-      <div class="input-group-append">
-      <button class="btn btn-success" type="submit">Go</button>
-      </div>
-      </div>
-    </div>
+
   </div>
 
-    <?php b4st_navbar_brand();?>
+    <?php //b4st_navbar_brand();
+    ?>
 
   <nav class="navbar navbar-expand-md navbar-light bg-white">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarDropdown">
+    <div class="collapse navbar-collapse justify-content-between" id="navbarDropdown">
       <?php
         wp_nav_menu( array(
           'theme_location'  => 'navbar',
