@@ -1,11 +1,11 @@
 <?php /* Template Name: HomePage */ ?>
 <?php
     get_header();
-    b4st_main_before();
+    // b4st_main_before();
 ?>
-
-                  <?php get_sidebar(); ?>
-
+      <div class="contaner">
+         <div class="row">
+           <?php get_sidebar(); ?>
             <div class="col-sm-8">
                <h3 class="text-center heding_color font-weight-bolder heding_border mt-2 mb-2">WELCOME TO FOOTBALL CARDSDIRECT</h3>
                <p class="text-justify">At football Cards Direct you are in the ideal place to find football cards and stickers from both here in
