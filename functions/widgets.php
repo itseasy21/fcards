@@ -12,8 +12,8 @@ function b4st_widgets_init() {
     'name'            => __( 'Sidebar', 'b4st' ),
     'id'              => 'sidebar-widget-area',
     'description'     => __( 'The sidebar widget area', 'b4st' ),
-    'before_widget'   => '<ul class="list-group list-group-flush %1$s %2$s">',
-    'after_widget'    => '</ul>',
+    'before_widget'   => '<div class="contaner"><ul class="list-group list-group-flush %1$s %2$s">',
+    'after_widget'    => '</ul></div>',
     'before_title'    => '<h3 class="text-center heding_color font-weight-bolder heding_border mt-2 mb-2">',
     'after_title'     => '</h3>',
   ) );
