@@ -15,9 +15,9 @@
     <div class="row">
        <div class="col-sm-4 bg">
   <?php
-    b4st_sidebar_before();
+    // b4st_sidebar_before();
     dynamic_sidebar('sidebar-widget-area');
-    b4st_sidebar_after();
+    // b4st_sidebar_after();
   ?>
       </div>
     </div>
