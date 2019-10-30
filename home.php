@@ -3,6 +3,37 @@
     get_header();
     // b4st_main_before();
 ?>
+<!-- <div class="mb-5">
+<img src="<?php echo get_template_directory_uri(); ?>/theme/img/banner.png" alt="banner_img" class="img-fluid img_banner"/>
+</div> -->
+<div class="row mb-5">
+  <div class="col-md-6">
+    <div class="row">
+      <a href="#">
+        <img src="<?php echo get_template_directory_uri(); ?>/theme/img/left1.jpg" alt="left1" class="img-fluid img_banner"/>
+      </a>
+    </div>
+    <div class="row">
+      <a href="#">
+        <img src="<?php echo get_template_directory_uri(); ?>/theme/img/left2.jpg" alt="left2" class="img-fluid img_banner"/>
+      </a>
+    </div>
+    <div class="row">
+      <a href="#">
+        <img src="<?php echo get_template_directory_uri(); ?>/theme/img/left3.jpg" alt="left3" class="img-fluid img_banner"/>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col">
+        <a href="#">
+          <img src="<?php echo get_template_directory_uri(); ?>/theme/img/right_img.jpg" alt="right_img" class="img-fluid img_banner"/>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
       <div class="contaner">
          <div class="row">
            <?php get_sidebar(); ?>
