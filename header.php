@@ -27,6 +27,7 @@
       <option>Currencies-4</option>
       </select>
     </div>
+          <?php b4st_navbar_search();?>
 
   </div>
 
@@ -51,8 +52,6 @@
         ) );
       ?>
 
-      <?php //b4st_navbar_search();
-      ?>
     </div>
   </nav>
 
