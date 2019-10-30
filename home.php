@@ -3,10 +3,10 @@
     get_header();
     // b4st_main_before();
 ?>
-<!-- <div class="mb-5">
+<div class="mb-5">
 <img src="<?php echo get_template_directory_uri(); ?>/theme/img/banner.png" alt="banner_img" class="img-fluid img_banner"/>
-</div> -->
-<div class="row mb-5">
+</div>
+<!-- <div class="row mb-5">
   <div class="col-md-6">
     <div class="row">
       <a href="#">
@@ -33,7 +33,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
       <div class="contaner">
          <div class="row">
            <?php get_sidebar(); ?>
