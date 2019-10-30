@@ -3,27 +3,9 @@
     get_header();
     b4st_main_before();
 ?>
-      <div class="contaner">
-         <div class="row">
-            <div class="col-sm-4 bg">
-               <h3 class="text-center heding_color font-weight-bolder heding_border mt-2 mb-2">Categories</h3>
-               <div class="contaner">
+
                   <?php get_sidebar(); ?>
-                  <!-- <ul class="list-group list-group-flush">
-                     <li class="list-group-item">MATCH ATTAX inc Non UK releases</li>
-                     <li class="list-group-item">TOPPS/ MERLIN STICKERS</li>
-                     <li class="list-group-item">NON UK CARDS</li>
-                     <li class="list-group-item">ADRENALYN XL inc Non UK releases</li>
-                     <li class="list-group-item">PANINI STICKERS inc Non UK</li>
-                     <li class="list-group-item">A&BC CARDS</li>
-                     <li class="list-group-item">OTHER UK CARDS</li>
-                     <li class="list-group-item">TOPPS CARDS–NON MATCH ATTAX</li>
-                     <li class="list-group-item">CARD SUPPLIES</li>
-                     <li class="list-group-item">PANINI CARDS–NON ADRENALYN XL</li>
-                     <li class="list-group-item">SELL YOUR CARDS</li>
-                  </ul> -->
-               </div>
-            </div>
+
             <div class="col-sm-8">
                <h3 class="text-center heding_color font-weight-bolder heding_border mt-2 mb-2">WELCOME TO FOOTBALL CARDSDIRECT</h3>
                <p class="text-justify">At football Cards Direct you are in the ideal place to find football cards and stickers from both here in
