@@ -72,4 +72,6 @@
 <img src="<?php echo get_template_directory_uri(); ?>/theme/img/banner.png" alt="banner_img" class="img-fluid img_banner"/>
 </div>
 
-<?php b4st_navbar_after();?>
+<?php
+//b4st_navbar_after(); //calling search
+?>
