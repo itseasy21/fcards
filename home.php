@@ -4,7 +4,7 @@
     // b4st_main_before();
 ?>
 <div class="mb-5 text-center">
-  <a href="#">
+  <a href="?page_id=103">
     <img src="<?php echo get_template_directory_uri(); ?>/theme/img/banner.png" alt="banner_img" class="img-fluid img_banner"/>
   </a>
 </div>
