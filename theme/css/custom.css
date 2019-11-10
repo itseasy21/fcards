@@ -128,3 +128,9 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+input#coupon_code {
+    width: 124px!important;
+}
+select#billing_country {
+    min-width: 200px;
+}

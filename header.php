@@ -14,17 +14,17 @@
   <div class="contaner1">
      <div class="row">
         <div class="col-sm-4 bg-white text-center">
-          <img src="<?php echo get_template_directory_uri(); ?>/theme/img/logo1.jpg" alt="logo_img" style="width: 96%;" class="mx-auto d-block" />
+          <a href="<?php echo get_template_directory_uri(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/theme/img/logo1.jpg" alt="logo_img" style="width: 96%;" class="mx-auto d-block" /></a>
         </div>
         <div class="col-sm-8 bg-white">
   <div class="row" style="margin: 12px;">
     <div class="col">
       <select class="form-control" id="sel1" name="sellist1">
       <option>Select Currencies</option>
-      <option>Currencies-1</option>
-      <option>Currencies-2</option>
-      <option>Currencies-3</option>
-      <option>Currencies-4</option>
+      <option>Dollar</option>
+      <option>Pound</option>
+      <option>Euro</option>
+      <option>Yen</option>
       </select>
     </div>
           <?php b4st_navbar_search();?>
