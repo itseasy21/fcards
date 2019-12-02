@@ -131,6 +131,12 @@
 input#coupon_code {
     width: 124px!important;
 }
-select#billing_country {
+/*select#billing_country {
     min-width: 200px;
+}*/
+span#select2-billing_country-container {
+    min-width: 200px!important;
+}
+span#select2-billing_state-container {
+    min-width: 200px!important;
 }
