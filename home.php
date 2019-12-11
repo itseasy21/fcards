@@ -58,7 +58,13 @@
       <section>
         <?php echo do_shortcode("[wcps id='100']"); ?>
       </section>
-      <script>
+      
+<?php
+    b4st_main_after();
+    get_footer();
+?>
+<script>
+  $(document).ready(function() {
         function myfunction() 
         {
           event.preventDefault();
@@ -83,8 +89,5 @@
           }
           
         }
+      });
       </script>
-<?php
-    b4st_main_after();
-    get_footer();
-?>

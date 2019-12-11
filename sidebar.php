@@ -15,14 +15,14 @@
        	<form id="jForm">
 	        <table>
 		        <tr>
-		            <select name="playername" id="playername"><option value="0">Player Name</option>
+		            <select name="playername" class="form-control" id="playername"><option value="0">Player Name</option>
 		                <option value="David Beckham">David Beckham</option>
 		                <option value="Cristiano Ronaldo">Cristiano Ronaldo</option>
 		                <option value="Diego Maradona">Diego Maradona</option>
 		            </select>
 		        </tr>
 		         <tr>
-		         	<select name="teamname" id="teamname"><option value="0">Team Name</option>
+		         	<select name="teamname" class="form-control" id="teamname"><option value="0">Team Name</option>
 		        		<option value="Manchester">Manchester</option>
 		                <option value="Liverpool">Liverpool</option>
 		        	</select>
