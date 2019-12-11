@@ -11,7 +11,7 @@
 
 <?php b4st_navbar_before();?>
 
-  <div class="contaner1">
+  <div class="contaner">
      <div class="row">
         <div class="col-sm-4 bg-white text-center">
           <a href="<?php echo get_template_directory_uri(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/theme/img/logo1.jpg" alt="logo_img" style="width: 96%;" class="mx-auto d-block" /></a>

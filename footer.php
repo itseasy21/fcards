@@ -6,8 +6,8 @@
 
     <div class="bg1 mt-3">
        <p class="text-center" style=""> 
-       	   <span>Copyright © 2018 FootballCardsDirect.com </span>
-       	</br>
+       	   <!-- <span>Copyright © 2018 FootballCardsDirect.com </span> -->
+       	<!-- </br> -->
            <a target="_blank" href="https://www.facebook.com/footballcardworld/" style="padding: 6px"><i  style="font-size:25px" class="fab fa-facebook-square"></i></a>
            <a target="_blank" href="https://twitter.com/FootballCardWld" style="padding: 6px"><i  style="font-size:25px" class="fab fa-twitter-square"></i></a>
            <a target="_blank" href="https://www.instagram.com/footballcardsworld/" style="padding: 6px"><i  style="font-size:25px" class="fab fa-instagram"></i></a>
