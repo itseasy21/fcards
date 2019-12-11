@@ -3,11 +3,7 @@
     get_header();
     // b4st_main_before();
 ?>
-<div class="mb-5 text-center">
-  <a href="?page_id=103">
-    <img src="<?php echo get_template_directory_uri(); ?>/theme/img/banner.png" alt="banner_img" class="img-fluid img_banner"/>
-  </a>
-</div>
+
 <!-- <div class="row mb-5">
   <div class="col-md-6">
     <div class="row">
@@ -37,6 +33,11 @@
   </div>
 </div> -->
       <div class="contaner">
+        <div class="mb-5 text-center">
+  <a href="?page_id=103">
+    <img src="<?php echo get_template_directory_uri(); ?>/theme/img/banner.png" alt="banner_img" class="img-fluid img_banner"/>
+  </a>
+</div>
          <div class="row">
            <?php get_sidebar(); ?>
             <div class="col-sm-8">
