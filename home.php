@@ -66,8 +66,8 @@
         {
           event.preventDefault();
           var origin   = window.location.origin;
-          var playername = $( "#playername option:selected" ).text();
-          var teamname = $( "#teamname option:selected" ).text();
+          var playername = jQuery( "#playername option:selected" ).text();
+          var teamname = jQuery( "#teamname option:selected" ).text();
           // alert(keywords);
           // var searchURI = origin + '/jobs/?s=' + category + '+' + jobtype + '+' + location;
           // console.log(searchURI);
