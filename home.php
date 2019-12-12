@@ -65,7 +65,7 @@
         function myfunction()
         {
           event.preventDefault();
-          var origin   = window.location.origin;
+          var origin   = window.location.href;
           var playername = jQuery( "#playername option:selected" ).text();
           var teamname = jQuery( "#teamname option:selected" ).text();
           // alert(keywords);
