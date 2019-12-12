@@ -61,7 +61,7 @@
 
 <script>
   // $(document).ready(function() {
-  jQuery(document).ready(function($){
+  // jQuery(document).ready(function($){
         function myfunction()
         {
           event.preventDefault();
@@ -89,7 +89,7 @@
           }
 
         }
-      });
+      // });
       </script>
 <?php
 b4st_main_after();
