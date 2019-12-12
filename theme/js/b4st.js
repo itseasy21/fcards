@@ -44,6 +44,35 @@
 						}]
 				});
 
+			// sidebar search
+			function myfunction()
+			{
+				event.preventDefault();
+				var origin   = window.location.href;
+				var playername = $( "#playername option:selected" ).text();
+				var teamname = $( "#teamname option:selected" ).text();
+				// alert(keywords);
+				// var searchURI = origin + '/jobs/?s=' + category + '+' + jobtype + '+' + location;
+				// console.log(searchURI);
+				//window.location.replace(searchURI);
+				//location.href = searchURI;
+
+				if(playername != "" && teamname == "")
+				{
+					var searchURI = origin + '/?s=' + playername;
+					window.location.replace(searchURI);
+				}
+				else if(teamname != "" && playername == "")
+				{
+					var searchURI = origin + '/?s=' + teamname;
+					window.location.replace(searchURI);
+				}else{
+					var searchURI = origin + '/?s=' + teamname + "+" + playername;
+					window.location.replace(searchURI);
+				}
+
+			}
+
 	});
 
 }(jQuery));

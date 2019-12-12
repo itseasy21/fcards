@@ -58,39 +58,6 @@
       <section>
         <?php echo do_shortcode("[wcps id='100']"); ?>
       </section>
-
-<script>
-  // $(document).ready(function() {
-  // jQuery(document).ready(function($){
-        function myfunction()
-        {
-          event.preventDefault();
-          var origin   = window.location.href;
-          var playername = jQuery( "#playername option:selected" ).text();
-          var teamname = jQuery( "#teamname option:selected" ).text();
-          // alert(keywords);
-          // var searchURI = origin + '/jobs/?s=' + category + '+' + jobtype + '+' + location;
-          // console.log(searchURI);
-          //window.location.replace(searchURI);
-          //location.href = searchURI;
-
-          if(playername != "" && teamname == "")
-          {
-            var searchURI = origin + '/?s=' + playername;
-            window.location.replace(searchURI);
-          }
-          else if(teamname != "" && playername == "")
-          {
-            var searchURI = origin + '/?s=' + teamname;
-            window.location.replace(searchURI);
-          }else{
-            var searchURI = origin + '/?s=' + teamname + "+" + playername;
-            window.location.replace(searchURI);
-          }
-
-        }
-      // });
-      </script>
 <?php
 b4st_main_after();
 get_footer();
