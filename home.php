@@ -60,7 +60,8 @@
       </section>
 
 <script>
-  $(document).ready(function() {
+  // $(document).ready(function() {
+  jQuery(document).ready(function($){
         function myfunction()
         {
           event.preventDefault();
