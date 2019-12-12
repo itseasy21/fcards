@@ -32,7 +32,6 @@
 		        </tr>
 		        </table>
 	        </form>
-        </div>
   <?php
     // b4st_sidebar_before();
     dynamic_sidebar('sidebar-widget-area');
