@@ -28,7 +28,7 @@
 		        	</select>
 		        </tr>
 		        <tr>
-		         	<p class="jobserachbtn"><a href="" onclick="myfunction();">Search Jobs</a></p>
+		         	<p class="jobserachbtn"><a href="javascript:void(0);" class="btn btn-primary" onclick="myfunction();">Search Jobs</a></p>
 		        </tr>
 		        </table>
 	        </form>
