@@ -12,7 +12,7 @@
 <?php if( is_active_sidebar('sidebar-widget-area') ): ?>
 <!-- <div id="sidebar" class="sidebar col-sm-4" role="navigation"> -->
        <div class="col-sm-4 bg">
-       	<form id="jForm">
+       	<!-- <form id="jForm">
 	        <table>
 		        <tr>
 		            <select name="playername" class="form-control" id="playername"><option value="0">Player Name</option>
@@ -31,7 +31,7 @@
 		         	<p class="jobserachbtn"><a href="javascript:void(0);" class="btn btn-primary" onclick="myfunction();">Search Jobs</a></p>
 		        </tr>
 		        </table>
-	        </form>
+	        </form> -->
   <?php
     // b4st_sidebar_before();
     dynamic_sidebar('sidebar-widget-area');
