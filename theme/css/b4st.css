@@ -96,4 +96,7 @@ textarea:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
 	margin-right: -0.625rem;
 	margin-bottom: -1.625rem;
 }
+ul.list-group.list-group-flush.search-3.widget_search {
+    margin-left: 20px;
+}
 /* Site footer */
