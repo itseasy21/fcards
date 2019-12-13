@@ -140,3 +140,6 @@ span#select2-billing_country-container {
 span#select2-billing_state-container {
     min-width: 200px!important;
 }
+ul.list-group.list-group-flush.search-3.widget_search {
+    margin-left: 20px;
+}
